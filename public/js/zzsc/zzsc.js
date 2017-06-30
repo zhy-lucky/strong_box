@@ -1,9 +1,9 @@
 $(function(){
 $('#zzsc').html('<canvas id="canvas"></canvas>');
-var WINDOW_WIDTH = 920;
-		var WINDOW_HEIGHT = 400;
-		var RADIUS = 7; //球半径
-		var NUMBER_GAP = 10; //数字之间的间隙
+var WINDOW_WIDTH = 270;
+		var WINDOW_HEIGHT = 80;
+		var RADIUS = 1.3; //球半径
+		var NUMBER_GAP = 2; //数字之间的间隙
 		var u=0.65; //碰撞能量损耗系数
 		var context; //Canvas绘制上下文
 		var balls = []; //存储彩色的小球
